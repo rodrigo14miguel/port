@@ -97,4 +97,11 @@
     resources: []
     consumesApi: ["cartApi"]
     components: ["coreKafkaLibrary", "corePaymentLibrary"]
+- identifier: some_identifier
+  title: Some Title
+  blueprint: terraform
+  properties:
+    ip: string
+  relations: {}
+
     
